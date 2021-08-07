@@ -30,7 +30,7 @@ function Navbar()
             </nav>
             <nav>
 
-            <a href="#About" className="nav-item">
+            <a href="#Contact" className="nav-item">
                 Contact
             </a>
                             
