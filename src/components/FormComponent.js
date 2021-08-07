@@ -2,7 +2,8 @@ export default function FormComponent(prop)
 {
   return (
         <form name="contact" onSubmit={prop.handleSubmit}>
-            <label for="name">
+            <input type="hidden" name="form-name" value="contact" />
+            <label htmlFor="name">
                 Name</label>
                 <br/>
            <input type="textbox"
@@ -16,7 +17,7 @@ export default function FormComponent(prop)
             
            <br />
            
-           <label for="email">
+           <label htmlFor="email">
                Email</label>
                <br/>
             <input type="email"
@@ -30,7 +31,7 @@ export default function FormComponent(prop)
               
             <br />
 
-            <label for="message">
+            <label htmlFor="message">
                 Message</label>
                 <br/>
             <textarea placeholder="Message"

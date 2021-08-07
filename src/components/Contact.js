@@ -31,7 +31,7 @@ class Contact extends Component
     }
     
     handleSubmit(e) {
-        e.preventDefault();
+        
 
         // const status = this.state.email.length>0 && this.state.name.length>0 && this.state.message.length>0
         // if(!status)
@@ -47,6 +47,7 @@ class Contact extends Component
         })
           .then(() => alert("Message sent!"))
           .catch((error) => alert(error));
+          e.preventDefault();
       }
 
     render() {
