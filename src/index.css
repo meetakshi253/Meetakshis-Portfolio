@@ -1,6 +1,15 @@
+html{
+  height: 100%;
+  margin: 0; padding: 0;
+}
+
 body
 {
   background-color: #222222;
+  height:100%;
+  overflow: auto;
+  margin: 0; padding: 0;
+  width: 99%
 }
 
 main
@@ -10,11 +19,22 @@ main
   color: #ffffff;
 }
 
+
 .title
 {
   font-weight:500;
   font-size:48px;
   margin-bottom: 20px;
+}
+
+span{
+  background-size:  100% 5%;
+background-repeat: repeat-x;
+background-position: left 0% bottom 10%;
+}
+
+span {
+  background-image: linear-gradient(90deg, #007ced 0%, #007ced 12.5%, #007ced 25%, #333 25%);
 }
 
 .container
@@ -32,8 +52,8 @@ main
 .container-message
 {
   text-align: left;
-  max-width: 38vw;
-  margin-bottom: 20px;;
+  max-width: 35vw;
+  margin: 20px;
 }
 
 .container-message-details
@@ -47,9 +67,9 @@ main
 }
 
 img{
-  padding: 80px;
-  margin-left: 30px;
-  max-width: 70%;
+  margin: 80px;
+  margin-right: 0;
+  max-width: 80%;
   width: 100%;
   height:auto;
 }
@@ -85,6 +105,9 @@ header{
 
 .header
 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 40px;
 }
 
@@ -123,6 +146,7 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .sticky + .content {
@@ -135,22 +159,28 @@ header{
   padding: 10px;
 }
 
+form{
+  width: 55%;
+
+}
+
 
 .form-item
 {
   -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
-  width: 650px;
+  width: 100%;
+  resize: vertical;
   font-weight: 300;
   font-family: poppins;
-  font-size: 1em;
+  font-size: 13px;
   background-color: transparent;
   border: 2px solid #bfbfbf;
   border-color: #555;
   color: #d5d5d5;
   display: block;
   border-radius: 5px;
-  padding: 8px;
+  padding: 10px;
   box-shadow: none;
   margin:0;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -162,6 +192,7 @@ header{
   border:2px solid #007ced;
   transition: .4s width ease-in-out;
   transition: border-color .30s ease-in-out,box-shadow .15s ease-in-out;
+  background-color: #252525;
 }
 
 label{
@@ -172,10 +203,11 @@ label{
 
 .section-title
 {
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 500;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+
 }
 
 .contact-container
@@ -190,4 +222,65 @@ label{
 textarea
 {
   resize: none;
+}
+
+footer{
+  display: block;
+  background-color: #252525;
+  border-color: #333;
+  margin-top:60px;
+  padding: 15px 45px;
+  border-top: 2px solid #333;
+  position: absolute;
+  width: 93.5vw;
+  left:0;
+}
+
+.Footer-content-copyright
+{
+  
+  font-size: 13px;
+  font-family: poppins;
+  color:#ddd;
+  float:right;
+}
+
+.form-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Footer-content-links
+{
+  display: flex;
+  flex-direction: row;
+  color: #929292;
+  font-size: 14px;
+  align-items: center;
+}
+
+.social
+{
+  color: #929292;
+  padding:10px;
+  margin: 5px;
+}
+
+.Footer
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between
+}
+
+
+#About
+{
+  margin-bottom: 100px;
 }

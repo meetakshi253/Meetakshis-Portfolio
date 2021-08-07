@@ -54,10 +54,11 @@ class Contact extends Component
         return (
         <section id="Contact" className="content">
             <div className="contact-container">
-                <h1 className="section-title">
-                    Connect with me
+                <h1 className="section-title"><span>
+                    Contact
+                    </span>
                 </h1>
-        <div className="container">
+        <div className="container form-container">
         <FormComponent 
         handleChange={this.handleChange}
         handleSubmit={this.handleSubmit}

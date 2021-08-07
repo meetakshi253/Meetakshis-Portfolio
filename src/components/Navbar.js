@@ -4,6 +4,9 @@ function Navbar()
 {return (
     <header className="header-navbar sticky">
         <div className="header">
+            <div>
+                Meetakshi Setiya
+            </div>
             <div className="container container-nav">
             <nav>
                 <a href="#About" className="nav-item">
