@@ -33,12 +33,12 @@ class Contact extends Component
     handleSubmit(e) {
         e.preventDefault();
 
-        const status = this.state.email.length>0 && this.state.name.length>0 && this.state.message.length>0
-        if(!status)
-        {
-            alert("Fill all entries")
-            return
-        }
+        // const status = this.state.email.length>0 && this.state.name.length>0 && this.state.message.length>0
+        // if(!status)
+        // {
+        //     alert("Fill all entries")
+        //     return
+        // }
 
         fetch("/", {
           method: "POST",
