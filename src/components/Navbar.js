@@ -14,26 +14,26 @@ function Navbar()
             </div>
             <div className="container container-nav">
 
-                <a href="#About" className="nav-item">
+                <a href="#About" alt="about" className="nav-item">
                     About
                 </a>
 
 
-            <a href="#About" className="nav-item">
+            <a href="#Projects" alt="projects" className="nav-item">
                 Projects
             </a>
 
                 
-            <a href="#About" className="nav-item">
+            <a href="#About" alt="skills" className="nav-item">
                 Skills
             </a>
 
  
-            <a href="#About" className="nav-item">
+            <a href="http://tiny.cc/Meetakshis-Resume" alt="resume" className="nav-item" target="_blank" rel="noopener noreferrer">
                 Resume
             </a>
 
-            <a href="#Contact" className="nav-item">
+            <a href="#Contact" alt="contact" className="nav-item">
                 Contact
             </a>
                             
