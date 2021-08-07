@@ -46,7 +46,7 @@ class Contact extends Component
           body: encode({ "form-name": "contact", ...this.state}),
         })
           .then(() => alert("Message sent!"))
-          .catch((error) => alert(error));
+          .catch((error) => alert('There was a problem submitting your form. Please try again'));
           e.preventDefault();
       }
 

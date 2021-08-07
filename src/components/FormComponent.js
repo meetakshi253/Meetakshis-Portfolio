@@ -1,8 +1,9 @@
 export default function FormComponent(prop)
 {
   return (
-        <form name="contact" onSubmit={prop.handleSubmit}>
-            <input type="hidden" name="form-name" value="contact" />
+        <form netlify="true"
+        netlify-honeypot="bot-field" name="contact" onSubmit={prop.handleSubmit}>
+        
             <label htmlFor="name">
                 Name</label>
                 <br/>
