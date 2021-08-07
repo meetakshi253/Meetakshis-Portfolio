@@ -4,40 +4,40 @@ function Navbar()
 {return (
     <header className="header-navbar sticky">
         <div className="header">
-            <div>
+            <div id="logo-details">
+            <img
+               className="logo"
+                    alt="coding girl"
+                    src="./ms-2.png"
+                    />
                 Meetakshi Setiya
             </div>
             <div className="container container-nav">
-            <nav>
+
                 <a href="#About" className="nav-item">
                     About
                 </a>
-            </nav>  
-            <nav>
+
+
             <a href="#About" className="nav-item">
                 Projects
             </a>
-            </nav> 
-            <nav>
+
                 
             <a href="#About" className="nav-item">
                 Skills
             </a>
-            </nav> 
-            <nav>
+
  
             <a href="#About" className="nav-item">
                 Resume
             </a>
-                           
-            </nav>
-            <nav>
 
             <a href="#Contact" className="nav-item">
                 Contact
             </a>
                             
-            </nav>
+
 
             </div>
         </div>
