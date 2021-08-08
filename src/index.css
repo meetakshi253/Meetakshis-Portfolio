@@ -2,7 +2,6 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -21,14 +20,12 @@ body {
   scroll-behavior: smooth;
   display: flex;
   justify-content: center;
-
 }
 
 main {
   min-height: -webkit-fill-available;
   font-family: poppins;
   color: #ffffff;
-
 }
 
 .title {
@@ -150,7 +147,6 @@ header {
   background-color: #222222;
   margin-top: 30px;
   margin-bottom: 10px;
-
 }
 
 .nav-item {
@@ -200,6 +196,7 @@ header {
 .container-nav {
   justify-content: flex-end;
   background-color: #222222;
+  margin-right: 10px;
 }
 
 .sticky {
@@ -224,7 +221,6 @@ header {
 
 form {
   width: 60%;
-
 }
 
 .form-item {
@@ -352,7 +348,7 @@ footer {
 
 #projects-message-link {
   position: relative;
-  color: #298CE6;
+  color: #298ce6;
   text-decoration: none;
   font-weight: 500;
 }
@@ -386,7 +382,6 @@ footer {
   display: flex;
   width: 50%;
   justify-content: center;
-
 }
 
 .card {
@@ -486,7 +481,7 @@ footer {
     width: 80%;
   }
 
-  .form-item{
+  .form-item {
     width: 95%;
   }
   .content {
@@ -502,15 +497,13 @@ footer {
     justify-content: center;
     align-items: center;
   }
-}
-
-@media screen and (max-width: 700px) {
-  .container-img {
-    display: none;
-  }
 
   .about-img {
-    width: 20%;
+    max-width: 70%;
+  }
+  .container-img {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -547,12 +540,12 @@ footer {
     font-weight: 500;
     margin: 3px 7px 10px 0;
   }
-  .logo{
+  .logo {
     margin-left: 0;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 600px) {
   .Footer-content-links {
     font-size: 12px;
   }
@@ -565,9 +558,8 @@ footer {
   footer {
     padding: 15px 10px;
     width: 98%;
-
-
   }
+
   .Footer {
     padding: 0px;
   }
@@ -577,5 +569,9 @@ footer {
     margin-right: 10px;
     max-width: 5%;
     width: 5%;
+  }
+
+  .container-img {
+    display: none;
   }
 }
