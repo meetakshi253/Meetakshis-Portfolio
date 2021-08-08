@@ -1,5 +1,5 @@
 export const projectsData = [
-  { 
+  {
     id: 1,
     name: "Avis",
     subtitle: "R, Tableau, Twitter API",

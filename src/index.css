@@ -24,7 +24,7 @@ body {
 
 main {
   min-height: -webkit-fill-available;
-  font-family: poppins;
+  font-family: Open Sans;
   color: #ffffff;
 }
 
@@ -74,16 +74,16 @@ span {
 }
 
 .container-message-details {
-  font-weight: 400;
-  font-size: 14px;
-  font-family: poppins;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Open Sans;
   color: #d5d5d5;
   width: inherit;
   margin: 0 30px 0 0;
 }
 
 #projects-message {
-  font-size: 15px;
+  font-size: 17px;
   display: inline;
   text-align: center;
 }
@@ -99,7 +99,7 @@ span {
 
 #logo-details {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -112,12 +112,12 @@ span {
 
 .btn {
   color: #f5f5f5;
-  font-size: 14px;
+  font-size: 15px;
   background-color: #333333;
   padding: 9px 29px 9px 29px;
   border-radius: 25px;
   border: 2px solid #007ced;
-  font-family: poppins;
+  font-family: Open Sans;
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
   margin-top: 27px;
 }
@@ -150,10 +150,10 @@ header {
 }
 
 .nav-item {
-  font-family: poppins;
+  font-family: Open Sans;
   font-size: 15px;
   text-decoration: none;
-  color: #969696;
+  color: #bfbfbf;
   padding: 0;
   margin: 12px 34px 12px 34px;
   position: relative;
@@ -174,7 +174,7 @@ header {
 }
 
 .nav-item:hover {
-  color: #f5f5f5;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -229,9 +229,9 @@ form {
   text-rendering: auto;
   width: 100%;
   resize: vertical;
-  font-weight: 300;
-  font-family: poppins;
-  font-size: 13px;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-size: 15px;
   background-color: transparent;
   border: 2px solid #bfbfbf;
   border-color: #555;
@@ -261,12 +261,13 @@ label {
 
 .section-title {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px;
   margin-bottom: 35px;
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  color: #f5f5f5;
 }
 
 .contact-container {
@@ -297,8 +298,8 @@ footer {
 }
 
 .Footer-content-copyright {
-  font-size: 13px;
-  font-family: poppins;
+  font-size: 14px;
+  font-family: Open Sans;
   color: #ddd;
   float: right;
 }
@@ -315,7 +316,7 @@ footer {
   display: flex;
   flex-direction: row;
   color: #929292;
-  font-size: 14px;
+  font-size: 15px;
   align-items: center;
 }
 
@@ -358,7 +359,7 @@ footer {
   color: #f5f5f5;
   text-decoration: none;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 3px 7px 10px 0;
 }
 
@@ -429,14 +430,14 @@ footer {
 }
 
 .card-body-details {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   color: #e7e7e7;
-  margin: 5px 0 5px 0;
+  margin: 7px 0 5px 0;
 }
 
 .subtitle {
-  margin-top: 3px;
+  margin-top: 4px;
   color: #bfbfbf;
 }
 
@@ -472,9 +473,7 @@ footer {
     margin-top: 50px;
     width: 100%;
   }
-  .card {
-    flex-direction: column;
-  }
+
   .project-details {
     width: 100%;
   }
@@ -526,21 +525,23 @@ footer {
     font-weight: 400px;
     font-size: 10px;
   }
+
   .nav-item {
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
     color: #969696;
     padding: 0;
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
     position: relative;
   }
   .card-body-title-link {
     color: #f5f5f5;
     text-decoration: none;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 3px 7px 10px 0;
   }
+
   .logo {
     margin-left: 0;
   }
@@ -548,7 +549,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .Footer-content-links {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .header {
@@ -577,10 +578,20 @@ footer {
   }
 }
 
-@media screen and (max-width: 350px)
-{
+@media screen and (max-width: 450px) {
+  .card {
+    flex-direction: column;
+  }
+  .card-body {
+    margin: 15px 5px 0 5px;
+  }
+
   .nav-item {
-    font-size: 13px;
+    font-size: 14px;
     margin: 10px 7px 10px 7px;
+  }
+
+  .card-body-title-link {
+    margin-left: 0;
   }
 }

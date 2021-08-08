@@ -10,7 +10,7 @@ class Projects extends Component {
     render() {
         const projectdetails = this.state.projectsdata.map((project) =>
         (
-            project.id<10?<ProjectCard key={project.id} project={project} />:null
+            project.id < 10 ? <ProjectCard key={project.id} project={project} /> : null
         ));
         return (
             <section id="Projects" className="content">
