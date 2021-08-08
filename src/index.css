@@ -93,11 +93,11 @@ span {
 
 
 .about-img{
-  margin: 80px;
-  margin-right: 0;
-  max-width: 80%;
-  max-height: 80%;
-  height:100%;
+
+  padding: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  width: 100%;
   min-width: 0;
   object-fit: contain;
 }
@@ -232,7 +232,7 @@ header{
 }
 
 form{
-  width: 55%;
+  width: 60%;
 
 }
 
@@ -291,7 +291,7 @@ label{
   align-items: center;
   justify-content: center;
   margin-bottom: 40px;
-  width: 100%;
+  width: 90%;
 }
 
 textarea
@@ -451,9 +451,10 @@ footer{
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
 }
+
 
 .card-body-details
 {
@@ -481,4 +482,129 @@ footer{
   clip: rect(1px, 1px, 1px, 1px); /*maybe deprecated but we need to support legacy browsers */
   clip-path: inset(50%); /*modern browsers, clip-path works inwards from each corner*/
   white-space: nowrap; /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+}
+
+/*------------- MAKE RESPONSIVE ---------------*/
+
+@media screen and (max-width: 1024px) {
+  .all-cards {
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .card{
+    flex-direction: column;
+  }
+  .project-details{
+    width: 100%;
+  }
+  form
+  {
+    width: 90%;
+  }
+  .content{
+    width: 100%;
+  }
+  .Footer{
+    flex-direction: column;
+  }
+
+  #header-navbar
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+}
+
+@media screen and (max-width: 700px)
+{
+  .container-img{
+    display: none;
+  }
+
+  .about-img{
+    width: 20%;
+  }
+
+}
+
+
+@media screen and (max-width: 800px)
+{
+  .container{
+    flex-direction: column;
+  }
+
+  .container-message
+  {
+    max-width: 100%;
+  }
+
+
+  .container-nav{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo-details
+  {
+    font-weight: 400px;
+    font-size: 10px;
+  }
+  .nav-item
+  {
+    font-size: 13px;
+    text-decoration: none;
+    color: #969696;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+  }
+  .card-body-title-link
+{
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 3px 7px 10px 0;
+}
+
+}
+
+@media screen and (max-width: 500px)
+{
+  .Footer-content-links
+  {
+    font-size: 12px;;
+  }
+
+  .header{
+    flex-direction: column;
+  }
+
+  footer{
+    padding: 15px 10px;
+    width: 100%;
+
+  }
+  .Footer{
+    padding: 0px
+  }
+
+
+.logo
+{
+  margin-left: 20px;
+  margin-right: 10px;
+  max-width: 5%;
+  width:5%;
+
+}
+
+
 }

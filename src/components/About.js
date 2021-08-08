@@ -5,6 +5,13 @@ function About()
     return (
         <section id="About" className="content">
             <div className="container">
+            <div className="container-img">
+                    <img
+                        className="img about-img"
+                        alt="coding girl"
+                        src="./img3.png"
+                    />
+                </div>
                 <div className="container-message">
                     <h1 className="title">
                         Hello!
@@ -16,13 +23,7 @@ function About()
                         Download CV
                     </button>
                 </div>
-                <div className="container-img">
-                    <img
-                        className="img about-image"
-                        alt="coding girl"
-                        src="./img3.png"
-                    />
-                </div>
+                
             </div>
         </section>
     )
