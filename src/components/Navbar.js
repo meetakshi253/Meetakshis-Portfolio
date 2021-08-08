@@ -7,7 +7,7 @@ function Navbar()
             <div id="logo-details">
             <img
                className="logo"
-                    alt="coding girl"
+                    alt="meetakshi"
                     src="./ms-2.png"
                     />
                 Meetakshi Setiya
