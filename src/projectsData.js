@@ -59,16 +59,16 @@ export const projectsData = [
     subtitle: "UI/UX Design Intern",
     details:
       "Conducted generative UX research and designed a complete UX portfolio for an R-Shiny app developed by the Bioinformatics Pathway. Designed the hi-fidelity prototype on Figma.",
-    image: "./project-13.png",
+    image: "./project-12.png",
     link: "http://tiny.cc/team3-demo",
   },
   {
-    id: 12,
+    id: 13,
     name: "KRaCR Labs IIITD",
     subtitle: "Website Development Intern",
     details:
       "Created the Gallery page and Home page, updated the Publications and Projects YAML pages, did some UI fixes on the [now rescinded] KRaCR Lab's Wesbite developed using Jekyll.",
-    image: "./project-12.png",
+    image: "./project-13.png",
     link: "https://github.com/kracr/kracr.github.io",
   },
 ]
