@@ -6,7 +6,6 @@ import React from "react";
 
 function ProjectCard(prop) {
     var newid = `${prop.project.name}`
-    console.log(newid)
     return (
         <div className="project-details">
             <div className="card">
