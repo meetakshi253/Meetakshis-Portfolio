@@ -219,6 +219,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 form {
@@ -268,6 +269,7 @@ label {
   margin-bottom: 35px;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .contact-container {
@@ -436,7 +438,7 @@ footer {
   margin: 5px 0 5px 0;
 }
 
-.techstack {
+.subtitle {
   margin-top: 3px;
   color: #bfbfbf;
 }
@@ -530,7 +532,7 @@ footer {
     font-size: 10px;
   }
   .nav-item {
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     color: #969696;
     padding: 0;

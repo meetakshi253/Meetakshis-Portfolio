@@ -23,15 +23,21 @@ function Navbar()
                 Projects
             </a>
 
+            <a href="#Experience" alt="experience" className="nav-item">
+                Experience
+            </a>
+
                 
             <a href="#About" alt="skills" className="nav-item">
                 Skills
             </a>
 
+
+
  
-            <a href="http://tiny.cc/Meetakshis-Resume" alt="resume" className="nav-item" target="_blank" rel="noopener noreferrer">
+            {/*<a href="http://tiny.cc/Meetakshis-Resume" alt="resume" className="nav-item" target="_blank" rel="noopener noreferrer">
                 Resume
-            </a>
+</a>*/}
 
             <a href="#Contact" alt="contact" className="nav-item">
                 Contact

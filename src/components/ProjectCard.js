@@ -16,7 +16,7 @@ function ProjectCard(prop) {
                         <a className="nav-item card-body-title-link" id={newid} href={prop.project.link}>{prop.project.name}</a>
                         <FontAwesomeIcon icon={faArrowRight} size="sm" transform={{rotate: 315}}/>
                     </div>
-                    <p className="card-body-details techstack">{prop.project.techstack}</p>
+                    <p className="card-body-details subtitle">{prop.project.subtitle}</p>
                     <p className="card-body-details">{prop.project.details}</p>
                 </div>
             </div>
