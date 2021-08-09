@@ -80,7 +80,7 @@ span {
   font-family: Open Sans;
   color: #d5d5d5;
   width: inherit;
-  margin: 0 30px 0 0;
+  margin: 0;
   line-height: 1.6;
 }
 
@@ -260,6 +260,7 @@ label {
   display: block;
   margin-top: 4px;
   margin-bottom: -17px;
+  font-weight: 500;
 }
 
 .section-title {
@@ -297,7 +298,7 @@ footer {
   position: absolute;
   width: 100vw;
   left: 0;
-  padding: 10px 0 20px 0;
+  padding: 10px 0 10px 0;
 }
 
 .Footer-content-copyright {
@@ -477,7 +478,7 @@ footer {
   .all-cards {
     flex-direction: column;
 
-    margin-top: 50px;
+    margin-top: 30px;
     width: 100%;
   }
 
@@ -541,6 +542,7 @@ footer {
     margin: 20px 10px 10px 10px;
     position: relative;
   }
+
   .card-body-title-link {
     color: #f5f5f5;
     text-decoration: none;
@@ -551,6 +553,11 @@ footer {
 
   .logo {
     margin-left: 0;
+  }
+
+  #projects-message,
+  label {
+    font-size: 15px;
   }
 }
 
@@ -569,11 +576,15 @@ footer {
   }
 
   .Footer {
-    padding: 0px;
+    padding: 2px;
+  }
+
+  .social {
+    padding: 5px;
+    margin: 5px;
   }
 
   .logo {
-    margin-left: 20px;
     margin-right: 10px;
     max-width: 5%;
     width: 5%;
@@ -581,6 +592,13 @@ footer {
 
   .container-img {
     display: none;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+  .nav-item {
+    margin: 20px auto 10px auto;
   }
 }
 
@@ -594,7 +612,6 @@ footer {
 
   .nav-item {
     font-size: 14px;
-    margin: 10px 7px 10px 7px;
   }
 
   .card-body-title-link {
