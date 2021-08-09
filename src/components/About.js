@@ -3,8 +3,8 @@
 
 function About() {
 
-    var college = <a className="link about-content-link" id="about-college-link" href="https://github.com/meetakshi253/">IIIT Delhi</a>
-    var sbilab = <a className="link about-content-link" id="about-sbilab-link" href="https://github.com/meetakshi253/">SBI Lab</a>
+    var college = <a className="link about-content-link" id="about-college-link" href="https://www.iiitd.ac.in">IIIT Delhi</a>
+    var sbilab = <a className="link about-content-link" id="about-sbilab-link" href="http://sbilab.iiitd.edu.in">SBI Lab</a>
 
     return (
         <section id="About" className="content">

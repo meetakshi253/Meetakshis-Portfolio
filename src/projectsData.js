@@ -42,7 +42,7 @@ export const projectsData = [
     details:
       "A Harry Potter themed multiplayer dodge-the-ball game that uses flex sensors on wands to shoot lasers and ultrasonic sensors on sliders to move the characters.",
     image: "./project-5.png",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/tathagatpal/TheHalfBubblePrince",
   },
   {
     id: 11,
