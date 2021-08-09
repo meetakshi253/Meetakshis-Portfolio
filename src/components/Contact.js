@@ -1,74 +1,144 @@
-import React, {Component} from "react"
-import FormComponent from "./FormComponent"
+import React, { useState } from "react"
+import axios from 'axios'
 
-function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
+function Contact() {
+    const [status, setStatus] = useState({
+        submitted: false,
+        submitting: false,
+        info: { error: false, msg: null },
+    })
 
+    const [inputs, setInputs] = useState({
+        name: '',
+        email: '',
+        message: ''
+    })
+    const handleServerResponse = (success, msg) => {
+        if (success) {
+            setStatus({
+                submitted: true,
+                submitting: false,
+                info: { error: false, msg: msg }
+            })
 
-class Contact extends Component
-{
-    constructor()
-    {
-        super()
-        this.state = {
-            name:'',
-            email:'',
-            message:''
+            setInputs({
+                name: '',
+                email: '',
+                message: '',
+            })
         }
-        this.handleChange = this.handleChange.bind(this)
-        this.handleSubmit = this.handleSubmit.bind(this)
+        else {
+            setStatus({
+                info: { error: true, msg: msg }
+            })
+        }
     }
 
-    handleChange(event)
-    {
-        const {name, value} = event.target
-        this.setState({[name]:value})
-    }
-    
-    handleSubmit(e) {
-        
+    const handleOnChange = (e) => {
+        e.persist();
+        setInputs((prev) => (
+            {
+                ...prev,
+                [e.target.id]: e.target.value,
+            }
+        ))
 
-        // const status = this.state.email.length>0 && this.state.name.length>0 && this.state.message.length>0
-        // if(!status)
-        // {
-        //     alert("Fill all entries")
-        //     return
-        // }
-
-        fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: encode({ "form-name": "contact", ...this.state}),
+        setStatus({
+            submitted: false,
+            submitting: false,
+            info: { error: false, msg: null }
         })
-          .then(() => alert("Message sent!"))
-          .catch((error) => alert('There was a problem submitting your form. Please try again'));
-          e.preventDefault();
-      }
+    }
 
-    render() {
-        return (
+    const handleOnSubmit = (e) => {
+        e.preventDefault();
+        setStatus((prevStatus) => ({
+            ...prevStatus,
+            submitting: true
+        }))
+
+        axios({
+            method: 'POST',
+            url: 'https://formspree.io/f/mrgryvnd',
+            data: inputs,
+        })
+            .then((response) => {
+                handleServerResponse(
+                    true,
+                    'Thank you for reaching out!'
+                )
+            })
+            .catch((error) => {
+                handleServerResponse(false, error.response.data.error);
+            })
+
+    }
+
+    return (
         <section id="Contact" className="content">
             <div className="contact-container">
                 <h1 className="section-title"><span>
                     Contact
-                    </span>
+                     </span>
                 </h1>
-        <div className="container form-container">
-        <FormComponent 
-        handleChange={this.handleChange}
-        handleSubmit={this.handleSubmit}
-        data={this.state}
-        />
-        </div>
-        </div>
-        </section> 
-        )
-    }
+                <div className="container-message-details error-message" id="projects-message"></div>
+                <div className="container form-container">
+                    <form onSubmit={handleOnSubmit}>
+
+                        <label htmlFor="name">
+                            Name</label>
+                        <br />
+                        <input type="textbox"
+                            value={inputs.name}
+                            name="name"
+                            placeholder="Name"
+                            className="form-item"
+                            id="name"
+                            required
+                            onChange={handleOnChange}
+                        />
+
+                        <br />
+
+                        <label htmlFor="email">
+                            Email</label>
+                        <br />
+                        <input type="email"
+                            placeholder="Email"
+                            name="_replyto"
+                            id="email"
+                            className="form-item"
+                            value={inputs.email}
+                            required
+                            onChange={handleOnChange}
+                        />
+
+                        <br />
+
+                        <label htmlFor="message">
+                            Message</label>
+                        <br />
+                        <textarea placeholder="Message"
+                            rows="5"
+                            className="form-item"
+                            id="message"
+                            name="message"
+                            value={inputs.message}
+                            required
+                            onChange={handleOnChange} />
+                        <br />
+
+                        <button className="btn" type="submit" disabled={status.submitting}>{!status.submitting ? !status.submitted ? 'Send Message' : 'Message Sent!' : 'Sending Message'}</button>
+                    </form>
+                </div>
+            </div>
+            {/* {status.info.error && (
+                document.getElementsByClassName("error-message")[0].innerHTML = status.info.msg
+            )}
+            {!status.info.error && status.info.msg && (document.getElementsByClassName("error-message")[0].innerHTML = status.info.msg)} */}
+        </section>
+    )
+
 }
 
 export default Contact
