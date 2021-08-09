@@ -349,7 +349,9 @@ footer {
   margin-bottom: 100px;
 }
 
-#projects-message-link #about-college-link #about-sbilab-link {
+#projects-message-link,
+#about-college-link,
+#about-sbilab-link {
   position: relative;
   color: #298ce6;
   text-decoration: none;
