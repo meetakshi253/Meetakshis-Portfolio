@@ -80,6 +80,7 @@ span {
   color: #d5d5d5;
   width: inherit;
   margin: 0 30px 0 0;
+  line-height: 1.6;
 }
 
 #projects-message {

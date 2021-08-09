@@ -2,6 +2,10 @@
 
 
 function About() {
+
+    var college = <a className="link about-content-link" id="projects-message-link" href="https://github.com/meetakshi253/">IIIT Delhi</a>
+    var sbilab = <a className="link about-content-link" id="projects-message-link" href="https://github.com/meetakshi253/">SBI Lab</a>
+
     return (
         <section id="About" className="content">
             <div className="container">
@@ -17,7 +21,11 @@ function About() {
                         Hello!
                     </h1>
                     <p className="container-message-details">
-                        I am a Computer Science and Engineering undergraduate at IIIT-Delhi. I love to look for tools and technologies to broaden my skillset. I am inclined towards developing software for social impact. I am a vehement believer in hard work and perseverance. I am a natural leader who looks forward to new challenges and opportunities to learn and grow.
+                        I am Meetakshi, a third year student at {college}, majoring in Computer Science and Engineering.
+                        I love exploring tools and technologies to broaden my skillset.
+                        Currently, I am working as a researcher at {sbilab} at IIIT Delhi.
+                        I will be interning at Microsoft as a Software Development Intern in the summer of 2022.
+                        I am a natural leader who looks forward to new challenges and opportunities to learn and grow.
                     </p>
                     <button className="btn container-downloadcv-button" onClick={() => { let newWindow = window.open('http://tiny.cc/Meetakshis-Resume', 'security'); newWindow.opener = null }}>
                         Resume
