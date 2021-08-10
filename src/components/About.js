@@ -27,7 +27,7 @@ function About() {
                         I will be interning at Microsoft as a Software Development Intern in the summer of 2022.
                         I am a natural leader who looks forward to new challenges and opportunities to learn and grow.
                     </p>
-                    <button className="btn container-downloadcv-button" onClick={() => { let newWindow = window.open('http://tiny.cc/Meetakshis-Resume', 'security'); newWindow.opener = null }}>
+                    <button className="btn container-downloadcv-button" onClick={() => { let newWindow = window.open('http://tiny.cc/Meetakshis_Resume', 'security'); newWindow.opener = null }}>
                         Resume
                     </button>
                 </div>

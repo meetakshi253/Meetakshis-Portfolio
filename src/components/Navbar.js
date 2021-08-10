@@ -20,7 +20,7 @@ function Navbar() {
                         Experience</a>
                     <a href="#Contact" alt="contact" className="nav-item">
                         Contact</a>
-                    <a href="http://tiny.cc/Meetakshis-Resume" alt="resume" className="nav-item" target="_blank" rel="noopener noreferrer">
+                    <a href="http://tiny.cc/Meetakshis_Resume" alt="resume" className="nav-item" target="_blank" rel="noopener noreferrer">
                         Resume</a>
                 </div>
             </div>
