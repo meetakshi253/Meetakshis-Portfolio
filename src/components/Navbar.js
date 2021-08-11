@@ -9,7 +9,7 @@ function Navbar() {
                         className="logo"
                         alt="meetakshi"
                         src="./ms-2.png" />
-                    Meetakshi Setiya
+                    <h1 id="h1-tag">Meetakshi Setiya</h1>
                 </div>
                 <div className="container container-nav">
                     <a href="#About" alt="about" className="nav-item">

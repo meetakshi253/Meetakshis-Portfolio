@@ -77,10 +77,10 @@ function Contact() {
     return (
         <section id="Contact" className="content">
             <div className="contact-container">
-                <h1 className="section-title"><span>
+                <h3 className="section-title"><span>
                     Contact
                      </span>
-                </h1>
+                </h3>
                 <div className="container-message-details error-message" id="projects-message"></div>
                 <div className="container form-container">
                     <form onSubmit={handleOnSubmit}>

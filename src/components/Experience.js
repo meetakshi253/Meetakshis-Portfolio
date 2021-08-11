@@ -16,7 +16,7 @@ class Projects extends Component {
             <section id="Experience" className="content" >
                 <div className="container">
                     <div className="container-projects">
-                        <h2 className="section-title" style={{ marginBottom: "10px" }}><span>Experience</span></h2>
+                        <h3 className="section-title" style={{ marginBottom: "10px" }}><span>Experience</span></h3>
                         <div className="all-cards">
                             {projectdetails}
                         </div>

@@ -17,9 +17,9 @@ function About() {
                     />
                 </div>
                 <div className="container-message">
-                    <h1 className="title">
+                    <h2 className="title">
                         Hello!
-                    </h1>
+                    </h2>
                     <p className="container-message-details">
                         I am Meetakshi, a third year student at {college}, majoring in Computer Science and Engineering.
                         I love exploring tools and technologies to broaden my skillset.
