@@ -3,6 +3,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {
     faGithub,
     faLinkedin,
+    faTwitter,
     faInstagram,
     faBehance,
     faLastfm,
@@ -15,7 +16,8 @@ function Footer() {
             <div className="Footer">
                 <div className="Footer-content-links Footer-item">
                     Connect with me:
-                      <a href="mailto:meetakshisty4@gmail.com" className="social"><FontAwesomeIcon icon={faEnvelope} size="lg" /><span className="visually-hidden">Email</span></a>
+                    {/* {<a href="mailto:meetakshisty4@gmail.com" className="social"><FontAwesomeIcon icon={faEnvelope} size="lg" /><span className="visually-hidden">Email</span></a>} */}
+                    <a href="https://twitter.com/metsetwhoo" className="social"><FontAwesomeIcon icon={faGithub} size="lg" /><span className="visually-hidden">Github</span></a>
                     <a href="https://github.com/meetakshi253" className="social"><FontAwesomeIcon icon={faGithub} size="lg" /><span className="visually-hidden">Github</span></a>
                     <a href="https://www.linkedin.com/in/meetakshisetiya/" className="social"><FontAwesomeIcon icon={faLinkedin} size="lg" /><span className="visually-hidden">Linkedin</span></a>
                     <a href="https://www.behance.net/meetakshi" className="social"><FontAwesomeIcon icon={faBehance} size="lg" /><span className="visually-hidden">Behance</span></a>
