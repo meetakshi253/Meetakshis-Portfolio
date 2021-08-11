@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { projectsData } from "../projectsData.js"
-import ProjectCard from "./ProjectCard"
+import ProjectCard from "../shared/ProjectCard"
 
 class Projects extends Component {
     constructor() {

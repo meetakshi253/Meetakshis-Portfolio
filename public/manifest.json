@@ -1,25 +1,105 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Meetakshi Setiya",
+  "name": "Meetakshi Setiya's Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "ms-2.ico",
+      "sizes": "32x27",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "img3.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "500x500"
     },
     {
-      "src": "logo512.png",
+      "src": "img3.webp",
+      "type": "image/webp",
+      "sizes": "500x500"
+    },
+    {
+      "src": "ms-2.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "104x87"
+    },
+    {
+      "src": "ms-2.webp",
+      "type": "image/webp",
+      "sizes": "104x87"
+    },
+    {
+      "src": "project-1.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-1.webp",
+      "type": "image/webp",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-2.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-2.webp",
+      "type": "image/webp",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-3.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-3.webp",
+      "type": "image/webp",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-4.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-4.webp",
+      "type": "image/webp",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-11.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-11.webp",
+      "type": "image/webp",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-12.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-12.webp",
+      "type": "image/webp",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-13.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    },
+    {
+      "src": "project-13webp",
+      "type": "image/webp",
+      "sizes": "225x225"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#007ced",
+  "background_color": "#222222"
 }

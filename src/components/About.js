@@ -1,5 +1,4 @@
-// src/components/About.js
-
+import ImgWithFallback from "../shared/ImgWithFallback"
 
 function About() {
 
@@ -10,11 +9,17 @@ function About() {
         <section id="About" className="content">
             <div className="container">
                 <div className="container-img">
-                    <img
+                    <ImgWithFallback
+                        src="./images/img3.webp"
+                        fallback="./images/img3.png"
+                        className="img about-img"
+                        alt="Coding girl picture"
+                    />
+                    {/* <img
                         className="img about-img"
                         alt="coding girl"
                         src="./img3.png"
-                    />
+                    /> */}
                 </div>
                 <div className="container-message">
                     <h2 className="title">
