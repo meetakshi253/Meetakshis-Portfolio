@@ -28,8 +28,8 @@ function About() {
                     <p className="container-message-details">
                         I am Meetakshi, a third year student at {college}, majoring in Computer Science and Engineering.
                         I love exploring tools and technologies to broaden my skillset.
-                        Currently, I am working as a researcher at {sbilab} at IIIT Delhi.
-                        I will be interning at Microsoft as a Software Development Intern in the summer of 2022.
+                        I am proficient in Java and Python. Currently, dabble in front-end web development and possess a great interest in Computational Neuroscience.
+                        I am also working as a researcher at {sbilab} at IIIT Delhi.
                         I am a natural leader who looks forward to new challenges and opportunities to learn and grow.
                     </p>
                     <button className="btn container-downloadcv-button" onClick={() => { let newWindow = window.open('http://tiny.cc/Meetakshis_Resume', 'security'); newWindow.opener = null }}>
