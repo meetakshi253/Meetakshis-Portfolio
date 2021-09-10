@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/meetakshisetiya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://meetakshisetiya.vercel.app
+  * I am meetakshisetiya (https://keybase.io/meetakshisetiya) on keybase.
+  * I have a public key ASD6cKngQb1r8pnz_Vy1tODnwFvsKI8V-1BUg9qvLBNxHAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fa70a9e041bd6bf299f3fd5cb5b4e0e7c05bec288f15fb505483daaf2c13711c0a",
+      "host": "keybase.io",
+      "kid": "0120fa70a9e041bd6bf299f3fd5cb5b4e0e7c05bec288f15fb505483daaf2c13711c0a",
+      "uid": "2da32cc9124d6f5f730a4802050b3d19",
+      "username": "meetakshisetiya"
+    },
+    "merkle_root": {
+      "ctime": 1631291791,
+      "hash": "dfa9522ed39e57e1b206d9ab99d431fb78399e99fa48cfdc4a4b4b56de0ecdccb2d9077c5b73f177fbfbaf143f9116c27a64dd10ceb784b78097783483b528a1",
+      "hash_meta": "7a1c860087a027e00c85474b0c9a795d02efbdc475742075ef11aafa68d33f7e",
+      "seqno": 20740094
+    },
+    "service": {
+      "entropy": "xfvFsDReoBeVbf8FFiN4KQhx",
+      "hostname": "meetakshisetiya.vercel.app",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1631291827,
+  "expire_in": 504576000,
+  "prev": "933320fc088430851400dc4ecdc8316d7cd0f6d2eb7b92375c65bc932bc232a3",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+nCp4EG9a/KZ8/1ctbTg58Bb7CiPFftQVIParywTcRwKp3BheWxvYWTESpcCC8QgkzMg/AiEMIUUANxOzcgxbXzQ9tLre5I3XGW8kyvCMqPEIJ0tTf46aO3+NQ282MnCR3MPRHddgcb0z79utOiYiEzEAgHCo3NpZ8RAVIPWJ3zuKAczPXIub1sj07tfqq3aNt6kI5h6cy8gcbsXiIxYAzWyOTEpcjkwicpMUkSMU8SvShDLg5JhQOwQDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBourh7gjFm6A+quTt/v+MrKthivjZ2I8EOyjsBuyKIvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/meetakshisetiya
+
+==================================================================
