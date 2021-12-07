@@ -28,7 +28,7 @@ function About() {
                     <p className="container-message-details">
                         I am Meetakshi Setiya, a third year student at {college}, majoring in Computer Science and Engineering. <br />
                         I am always looking for ways to explore tools and technologies to broaden my skillset.
-                        Presently, I dabble in front-end web development and possess a great interest in Computational Neuroscience.
+                        Presently, I dabble in web development and possess a great interest in Computational Neuroscience.
                         I am also working as a researcher at {sbilab} at IIIT Delhi.
                         I am a natural leader who looks forward to new challenges and opportunities to learn and grow  (and sneak in Harry Potter references wherever I can).
                     </p>
