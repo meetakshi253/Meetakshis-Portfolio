@@ -25,7 +25,7 @@ body {
 
 main {
   min-height: -webkit-fill-available;
-  font-family: Open Sans;
+  font-family: 'Lato', sans-serif;
   color: #ffffff;
 }
 
@@ -62,7 +62,6 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   max-width: 100%;
 }
 
@@ -75,33 +74,26 @@ span {
 }
 
 .container-message {
+  margin-left: 10px;
+  padding-left: 20px;
   text-align: left;
   max-width: 40vw;
   margin: 0 20px 20px 20px;
-}
-
-.container-message-details {
-  font-weight: 500;
-  font-size: 16px;
-  font-family: Open Sans;
-  color: #d5d5d5;
-  width: inherit;
-  margin: 0;
   line-height: 1.6;
 }
 
-#projects-message {
-  font-size: 17px;
-  display: inline;
-  text-align: center;
+.container-message-details {
+  font-weight: 300;
+  font-size: 19px;
+  font-family: inherit;
+  color: #f1f0f0;
+  width: inherit;
+  margin: 0;
 }
 
 .about-img {
-  padding: 10px;
-  max-width: 90%;
-  max-height: 90%;
-  width: 100%;
-  min-width: 0;
+  max-width: 350px;
+  border-radius: 3%;
   object-fit: contain;
 }
 
@@ -125,7 +117,7 @@ span {
   padding: 9px 29px 9px 29px;
   border-radius: 25px;
   border: 2px solid #007ced;
-  font-family: Open Sans;
+  font-family: inherit;
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
   margin-top: 27px;
   cursor: pointer;
@@ -159,8 +151,9 @@ header {
 }
 
 .nav-item {
-  font-family: Open Sans;
-  font-size: 15px;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
   text-decoration: none;
   color: #bfbfbf;
   padding: 0;
@@ -196,9 +189,9 @@ header {
 }
 
 .container-img {
+  margin-right: 20px;
   max-width: 500px;
   max-height: 500px;
-
   min-width: 0;
 }
 
@@ -238,8 +231,8 @@ form {
   text-rendering: auto;
   width: 100%;
   resize: vertical;
-  font-weight: 400;
-  font-family: Open Sans;
+  font-weight: 300;
+  font-family: inherit;
   font-size: 15px;
   background-color: transparent;
   border: 2px solid #bfbfbf;
@@ -273,7 +266,7 @@ label {
   font-size: 40px;
   font-weight: 600;
   padding: 10px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
   margin-top: 40px;
@@ -309,7 +302,7 @@ footer {
 
 .Footer-content-copyright {
   font-size: 14px;
-  font-family: Open Sans;
+  font-family: inherit;
   color: #ddd;
   float: right;
 }
@@ -409,6 +402,7 @@ footer {
   border: 2px solid #444;
   width: 90%;
   max-width: 87%;
+  line-height: 1.5;
 }
 
 .card-image {
@@ -439,20 +433,23 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
 }
 
 .card-body-details {
-  font-size: 14px;
-  font-weight: 400;
-  color: #e7e7e7;
+  font-size: 16px;
+  font-weight: 300;
+  color: #f1f0f0;
   margin: 7px 0 5px 0;
 }
 
 .subtitle {
   margin-top: 4px;
   color: #bfbfbf;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .visually-hidden {
@@ -513,8 +510,9 @@ footer {
   }
 
   .about-img {
-    max-width: 70%;
+    max-width: 250px;
   }
+
   .container-img {
     display: flex;
     justify-content: center;
@@ -523,7 +521,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .container-message {
@@ -553,7 +551,7 @@ footer {
     color: #f5f5f5;
     text-decoration: none;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 400;
     margin: 3px 7px 10px 0;
   }
 
@@ -599,10 +597,6 @@ footer {
     margin-right: 10px;
     max-width: 5%;
     width: 5%;
-  }
-
-  .container-img {
-    display: none;
   }
 
   .section-title {
