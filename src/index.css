@@ -93,7 +93,7 @@ span {
 
 .about-img {
   max-width: 350px;
-  border-radius: 3%;
+  border-radius: 2%;
   object-fit: contain;
 }
 
@@ -153,7 +153,7 @@ header {
 .nav-item {
   font-family: inherit;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   color: #bfbfbf;
   padding: 0;
@@ -485,6 +485,10 @@ footer {
     width: 100%;
   }
 
+  .container-message-details {
+    font-size: 16px;
+  }
+
   .project-details {
     width: 100%;
   }
@@ -559,6 +563,10 @@ footer {
     margin-left: 0;
   }
 
+  .title{
+    font-size: 45px;
+  }
+
   #projects-message,
   label {
     font-size: 15px;
@@ -566,10 +574,6 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .container-message-details {
-    font-weight: 500;
-    font-size: 15px;
-  }
 
   .Footer-content-links {
     font-size: 14px;
