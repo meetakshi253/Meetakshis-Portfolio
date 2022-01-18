@@ -10,7 +10,6 @@ body {
   overflow: auto;
   margin: 0;
   padding: 0;
-  width: 99%;
   overflow-x: hidden;
 }
 
@@ -31,14 +30,8 @@ main {
 
 .title {
   font-weight: 500;
-  font-size: 48px;
+  font-size: 45px;
   margin-bottom: 20px;
-}
-
-span {
-  background-size: 100% 5%;
-  background-repeat: repeat-x;
-  background-position: left 0% bottom 10%;
 }
 
 #h1-tag {
@@ -47,7 +40,10 @@ span {
   font-weight: 700;
 }
 
-span {
+.section-title-span {
+  background-size: 100% 5%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 10%;
   background-image: linear-gradient(
     90deg,
     #007ced 0%,
@@ -62,7 +58,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 100%;
+  max-width: 78%;
 }
 
 .container-projects {
@@ -77,37 +73,30 @@ span {
   margin-left: 10px;
   padding-left: 20px;
   text-align: left;
-  max-width: 40vw;
+  max-width: 38vw;
   margin: 0 20px 20px 20px;
   line-height: 1.6;
 }
 
 .container-message-details {
-  font-weight: 300;
-  font-size: 19px;
+  font-weight: 400;
+  font-size: 17px;
   font-family: inherit;
-  color: #f1f0f0;
+  color: #d5d5d5;
   width: inherit;
   margin: 0;
 }
 
 .about-img {
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 2%;
   object-fit: contain;
-}
-
-#logo-details {
-  font-size: 18px;
-  font-weight: 600;
-  text-align: center;
 }
 
 .logo {
   margin-left: 20px;
   margin-right: 10px;
-  max-width: 13%;
-  width: 12%;
+  width: 40px;
 }
 
 .btn {
@@ -152,7 +141,7 @@ header {
 
 .nav-item {
   font-family: inherit;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   text-decoration: none;
   color: #bfbfbf;
@@ -205,7 +194,7 @@ header {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .sticky + .content {
@@ -231,7 +220,7 @@ form {
   text-rendering: auto;
   width: 100%;
   resize: vertical;
-  font-weight: 300;
+  font-weight: 400;
   font-family: inherit;
   font-size: 15px;
   background-color: transparent;
@@ -260,6 +249,7 @@ label {
   margin-top: 4px;
   margin-bottom: -17px;
   font-weight: 500;
+  color: #f1f0f0;
 }
 
 .section-title {
@@ -308,6 +298,7 @@ footer {
 }
 
 .form-container {
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -315,11 +306,12 @@ footer {
   width: 100%;
 }
 
-.Footer-content-links {
+.Footer-content {
   display: flex;
   flex-direction: row;
   color: #929292;
   font-size: 15px;
+  font-weight: 300;
   align-items: center;
 }
 
@@ -327,6 +319,11 @@ footer {
   color: #929292;
   padding: 10px;
   margin: 5px;
+}
+
+.social-name
+{
+  margin-left: 5px;
 }
 
 .social:hover {
@@ -394,7 +391,7 @@ footer {
 .card {
   padding: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin: 20px 20px 20px 20px;
   background-color: #282828;
@@ -439,8 +436,8 @@ footer {
 
 .card-body-details {
   font-size: 16px;
-  font-weight: 300;
-  color: #f1f0f0;
+  font-weight: 400;
+  color: #d5d5d5;
   margin: 7px 0 5px 0;
 }
 
@@ -448,31 +445,16 @@ footer {
   margin-top: 4px;
   color: #bfbfbf;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
-.visually-hidden {
-  border: 0;
-  padding: 0;
-  margin: 0;
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(
-    1px 1px 1px 1px
-  ); /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
-  clip: rect(
-    1px,
-    1px,
-    1px,
-    1px
-  ); /*maybe deprecated but we need to support legacy browsers */
-  clip-path: inset(
-    50%
-  ); /*modern browsers, clip-path works inwards from each corner*/
-  white-space: nowrap; /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+.ft-para
+{
+  font-size: 17px;
+  color: #f1f0f0;
+  display: block;
+  padding-bottom: 10px;
 }
 
 /*------------- MAKE RESPONSIVE ---------------*/
@@ -526,6 +508,11 @@ footer {
 @media screen and (max-width: 800px) {
   .container {
     flex-direction: column-reverse;
+    max-width: 100%;
+  }
+
+  .card {
+    flex-direction: row;
   }
 
   .container-message {
@@ -537,18 +524,8 @@ footer {
     justify-content: center;
   }
 
-  .logo-details {
-    font-weight: 400px;
-    font-size: 10px;
-  }
-
   .nav-item {
     font-size: 15px;
-    text-decoration: none;
-    color: #969696;
-    padding: 0;
-    margin: 20px 10px 10px 10px;
-    position: relative;
   }
 
   .card-body-title-link {
@@ -559,8 +536,9 @@ footer {
     margin: 3px 7px 10px 0;
   }
 
-  .logo {
-    margin-left: 0;
+  .social {
+    padding: 5px;
+    margin: 8px;
   }
 
   .title{
@@ -579,11 +557,6 @@ footer {
     font-size: 14px;
   }
 
-  .header {
-    flex-direction: column;
-    border-bottom: 2px solid #333;
-  }
-
   footer {
     width: 100vw;
   }
@@ -592,22 +565,17 @@ footer {
     padding: 2px;
   }
 
-  .social {
-    padding: 5px;
-    margin: 5px;
-  }
-
-  .logo {
-    margin-right: 10px;
-    max-width: 5%;
-    width: 5%;
-  }
-
   .section-title {
     font-size: 36px;
   }
+
+  .logo {
+    width: 25px;
+  }
+
   .nav-item {
-    margin: 20px auto 10px auto;
+    left: 0;
+    margin: 5px 10px 10px 10px;
   }
 }
 
@@ -616,15 +584,17 @@ footer {
     margin-top: 40px;
     margin-bottom: 90px;
   }
+
   .card {
     flex-direction: column;
   }
+
   .card-body {
     margin: 15px 5px 0 5px;
   }
 
   .nav-item {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .card-body-title-link {

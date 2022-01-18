@@ -1,5 +1,14 @@
 import React, { useState } from "react"
 import axios from 'axios'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faGithub,
+    faLinkedin,
+    faTwitter,
+    faInstagram,
+    faBehance,
+    faLastfm,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
     const [status, setStatus] = useState({
@@ -77,10 +86,20 @@ function Contact() {
     return (
         <section id="Contact" className="content">
             <div className="contact-container">
-                <h3 className="section-title"><span>
+                <h3 className="section-title"><span className="section-title-span">
                     Contact
                      </span>
                 </h3>
+                <div className="Footer-content">
+                    <div className="Footer-content-links">
+                    <a href="https://github.com/meetakshi253" className="social nav-item"><FontAwesomeIcon icon={faGithub} size="lg" /><span className="social-name">Github</span></a>
+                    <a href="https://www.linkedin.com/in/meetakshisetiya/" className="social nav-item"><FontAwesomeIcon icon={faLinkedin} size="lg" /><span className="social-name">Linkedin</span></a>
+                    <a href="https://twitter.com/metsetwhoo" className="social nav-item"><FontAwesomeIcon icon={faTwitter} size="lg" /><span className="social-name">Twitter</span></a>
+                    <a href="https://www.instagram.com/metsetwho/" className="social nav-item"><FontAwesomeIcon icon={faInstagram} size="lg" /><span className="social-name">Instagram</span></a>
+                    <a href="https://www.behance.net/meetakshi" className="social nav-item"><FontAwesomeIcon icon={faBehance} size="lg" /><span className="social-name">Behance</span></a>
+                    <a href="https://www.last.fm/user/darthgraffiti" className="social nav-item"><FontAwesomeIcon icon={faLastfm} size="lg" /><span className="social-name">Last.fm</span></a>
+                    </div>
+                </div>
                 <div className="container-message-details error-message" id="projects-message"></div>
                 <div className="container form-container">
                     <form onSubmit={handleOnSubmit}>
@@ -91,7 +110,7 @@ function Contact() {
                         <input type="textbox"
                             value={inputs.name}
                             name="name"
-                            placeholder="Name"
+                            placeholder="Sirius Black"
                             className="form-item"
                             id="name"
                             required
@@ -104,7 +123,7 @@ function Contact() {
                             Email</label>
                         <br />
                         <input type="email"
-                            placeholder="Email"
+                            placeholder="idontwanttogo@azkaban.com"
                             name="_replyto"
                             id="email"
                             className="form-item"
@@ -118,7 +137,7 @@ function Contact() {
                         <label htmlFor="message">
                             Message</label>
                         <br />
-                        <textarea placeholder="Message"
+                        <textarea placeholder="Your message"
                             rows="5"
                             className="form-item"
                             id="message"

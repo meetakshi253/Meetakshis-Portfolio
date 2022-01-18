@@ -16,7 +16,7 @@ class Projects extends Component {
             <section id="Projects" className="content">
                 <div className="container">
                     <div className="container-projects">
-                        <h3 className="section-title"><span>Projects</span></h3>
+                        <h3 className="section-title"><span className="section-title-span">Projects</span></h3>
                         <div className="all-cards">
                             {projectdetails}
                         </div>

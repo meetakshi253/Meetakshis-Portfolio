@@ -1,15 +1,16 @@
 import React from "react"
+import ImgWithFallback from "../shared/ImgWithFallback"
 
 function Navbar() {
     return (
         <header className="header-navbar sticky">
             <div className="header">
                 <div id="logo-details">
-                    <img
+                    <ImgWithFallback
                         className="logo"
                         alt="meetakshi"
-                        src="./ms-2.png" />
-                    <h1 id="h1-tag">Meetakshi Setiya</h1>
+                        src="./ms-2.png" 
+                    />
                 </div>
                 <div className="container container-nav">
                     <a href="#About" alt="about" className="nav-item">
@@ -20,8 +21,6 @@ function Navbar() {
                         Experience</a>
                     <a href="#Contact" alt="contact" className="nav-item">
                         Contact</a>
-                    <a href="http://tiny.cc/Meetakshis_Resume" alt="resume" className="nav-item" target="_blank" rel="noopener noreferrer">
-                        Resume</a>
                 </div>
             </div>
         </header>
