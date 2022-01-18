@@ -110,7 +110,7 @@ function Contact() {
                         <input type="textbox"
                             value={inputs.name}
                             name="name"
-                            placeholder="Sirius Black"
+                            placeholder="Your name"
                             className="form-item"
                             id="name"
                             required
@@ -123,7 +123,7 @@ function Contact() {
                             Email</label>
                         <br />
                         <input type="email"
-                            placeholder="idontwanttogo@azkaban.com"
+                            placeholder="your@email"
                             name="_replyto"
                             id="email"
                             className="form-item"
