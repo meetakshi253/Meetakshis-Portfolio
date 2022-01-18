@@ -11,7 +11,7 @@ function About() {
             <div className="container">
                 <div className="container-img">
                     <ImgWithFallback
-                        src="./images/img-3.png"
+                        src="https://res.cloudinary.com/duy8mqmab/image/upload/v1642541617/img-3_aumpmr.png"
                         className="img about-img"
                         alt="Meetakshi's Picture"
                     />

@@ -462,9 +462,12 @@ footer {
 @media screen and (max-width: 1024px) {
   .all-cards {
     flex-direction: column;
-
     margin-top: 30px;
     width: 100%;
+  }
+
+  .card {
+    flex-direction: row;
   }
 
   .container-message-details {
@@ -484,6 +487,7 @@ footer {
   .content {
     width: 100%;
   }
+
   .Footer {
     flex-direction: column;
   }
@@ -509,10 +513,6 @@ footer {
   .container {
     flex-direction: column-reverse;
     max-width: 100%;
-  }
-
-  .card {
-    flex-direction: row;
   }
 
   .container-message {
