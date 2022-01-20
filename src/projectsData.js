@@ -14,7 +14,7 @@ export const projectsData = [
     name: "Avis",
     subtitle: "R, Tableau, Twitter API",
     details:
-      "An R program that extracts 2000 tweets each for Samsung Galaxy and Apple iPhone from four different cities and performs sentiment analysis on them. Data also visualised through Tableau.",
+      "An R program that extrhttps://res.cloudinary.comacts 2000 tweets each for Samsung Galaxy and Apple iPhone from four different cities and performs sentiment analysis on them. Data also visualised through Tableau.",
     image: "https://res.cloudinary.com/duy8mqmab/image/upload/v1642541616/project-1_amnzle.png",
     fallback: "https://picsum.photos/255",
     link: "https://github.com/meetakshi253/Avis",

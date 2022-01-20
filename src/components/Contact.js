@@ -104,7 +104,7 @@ function Contact() {
                             Email</label>
                         <br />
                         <input type="email"
-                            placeholder="your@email"
+                            placeholder="your@email.com"
                             name="_replyto"
                             id="email"
                             className="form-item"
