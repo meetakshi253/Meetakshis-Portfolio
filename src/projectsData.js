@@ -1,5 +1,15 @@
 export const projectsData = [
   {
+    id: 0,
+    name: "Ecstacy",
+    subtitle: "Express, Next.js, Prisma, MySQL, Razorpay",
+    details:
+      "A secure, e-commerce website developed primarily to facilitate buying and selling of products between users. Features a complete e-shopping experience. Developed in a team of 4.",
+    image: "https://res.cloudinary.com/duy8mqmab/image/upload/v1642706147/ecstacy_mve785.png",
+    fallback: "https://picsum.photos/255",
+    link: "https://github.com/ecstacy-fcs/client"
+  },
+  {
     id: 1,
     name: "Avis",
     subtitle: "R, Tableau, Twitter API",
@@ -11,6 +21,16 @@ export const projectsData = [
   },
   {
     id: 2,
+    name: "Video Chat App",
+    subtitle: "EJS, Express, WebRTC, PeerJS",
+    details:
+      "A  video chat application as a part of the Engage Mentorship Program. Supports video call, in-call and without-call text chat, screen-sharing, creation of custom rooms etc",
+    image: "https://res.cloudinary.com/duy8mqmab/image/upload/v1642707155/teams-clone_mgxiov.png",
+    fallback: "https://picsum.photos/255",
+    link: "https://github.com/meetakshi253/teams-clone",
+  },
+  {
+    id: 3,
     name: "Eyetastic",
     subtitle: "Python, GazeFlow API",
     details:
@@ -20,7 +40,7 @@ export const projectsData = [
     link: "https://github.com/meetakshi253/Eyetastic",
   },
   {
-    id: 3,
+    id: 4,
     name: "Color Switch Reprise",
     subtitle: "Java, JavaFx",
     details:
@@ -30,7 +50,7 @@ export const projectsData = [
     link: "https://github.com/APColab/ColorSwitch",
   },
   {
-    id: 4,
+    id: 5,
     name: "shush",
     subtitle: "C, Makefile, Linux",
     details:
@@ -39,18 +59,28 @@ export const projectsData = [
     fallback: "https://picsum.photos/255",
     link: "https://github.com/meetakshi253/shush",
   },
-  {
-    id: 5,
-    name: "The Half-Bubble Prince",
-    subtitle: "Arduino, Processing, Sensors",
-    details:
-      "A Harry Potter themed multiplayer dodge-the-ball game that uses flex sensors on wands to shoot lasers and ultrasonic sensors on sliders to move the characters.",
-    image: "https://res.cloudinary.com/duy8mqmab/image/upload/v1642541615/project-5_nsiunt.png",
-    fallback: "https://picsum.photos/255",
-    link: "https://github.com/tathagatpal/TheHalfBubblePrince",
-  },
+  // {
+  //   id: 5,
+  //   name: "The Half-Bubble Prince",
+  //   subtitle: "Arduino, Processing, Sensors",
+  //   details:
+  //     "A Harry Potter themed multiplayer dodge-the-ball game that uses flex sensors on wands to shoot lasers and ultrasonic sensors on sliders to move the characters.",
+  //   image: "https://res.cloudinary.com/duy8mqmab/image/upload/v1642541615/project-5_nsiunt.png",
+  //   fallback: "https://picsum.photos/255",
+  //   link: "https://github.com/tathagatpal/TheHalfBubblePrince",
+  // },
   {
     id: 11,
+    name: "SBILab IIIT-Delhi",
+    subtitle: "Undergraduate Researcher",
+    details:
+      "Studied the behavioural dataset in the Human Connectome Projects and identified possible causation and correlation between the recorded behavioural measures using Python and Tableau.",
+    image: "https://res.cloudinary.com/duy8mqmab/image/upload/v1642707380/sbilab_nqdqti.png",
+    fallback: "https://picsum.photos/255",
+    link: "https://sbilab.iiitd.edu.in",
+  },
+  {
+    id: 12,
     name: "Microsoft Engage",
     subtitle: "Mentee 2021",
     details:
@@ -60,7 +90,7 @@ export const projectsData = [
     link: "https://github.com/meetakshi253/teams-clone",
   },
   {
-    id: 12,
+    id: 13,
     name: "Stem-Away",
     subtitle: "UI/UX Design Intern",
     details:
@@ -70,7 +100,7 @@ export const projectsData = [
     link: "http://tiny.cc/team3-demo",
   },
   {
-    id: 13,
+    id: 14,
     name: "KRaCR Labs IIITD",
     subtitle: "Website Development Intern",
     details:
