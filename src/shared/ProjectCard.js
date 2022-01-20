@@ -19,7 +19,7 @@ function ProjectCard(prop) {
                 {/* <img src={prop.project.image} alt={prop.project.name} className="card-image" /> */}
                 <div className="card-body">
                     <div className="card-body-title">
-                        <a className="nav-item card-body-title-link" id={newid} href={prop.project.link}>{prop.project.name}</a>
+                        <a className="nav-item card-body-title-link" id={newid} href={prop.project.link} target="_blank" rel="noreferrer">{prop.project.name}</a>
                         <FontAwesomeIcon icon={faArrowRight} size="sm" transform={{ rotate: 315 }} />
                     </div>
                     <p className="card-body-details subtitle">{prop.project.subtitle}</p>
