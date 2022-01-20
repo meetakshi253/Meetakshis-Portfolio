@@ -8,49 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "img3.png",
-      "type": "image/png",
-      "sizes": "500x500"
-    },
-    {
       "src": "ms-2.png",
       "type": "image/png",
       "sizes": "104x87"
-    },
-    {
-      "src": "images/project-1.png",
-      "type": "image/png",
-      "sizes": "225x225"
-    },
-    {
-      "src": "images/project-2.png",
-      "type": "image/png",
-      "sizes": "225x225"
-    },
-    {
-      "src": "images/project-3.png",
-      "type": "image/png",
-      "sizes": "225x225"
-    },
-    {
-      "src": "images/project-4.png",
-      "type": "image/png",
-      "sizes": "225x225"
-    },
-    {
-      "src": "images/project-11.png",
-      "type": "image/png",
-      "sizes": "225x225"
-    },
-    {
-      "src": "images/project-12.png",
-      "type": "image/png",
-      "sizes": "225x225"
-    },
-    {
-      "src": "images/project-13.png",
-      "type": "image/png",
-      "sizes": "225x225"
     }
   ],
   "start_url": ".",
