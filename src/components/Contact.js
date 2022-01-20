@@ -77,7 +77,7 @@ function Contact() {
     return (
         <section id="Contact" className="content">
             <div className="contact-container">
-                <h3 className="section-title"><span>
+                <h3 className="section-title"><span className="section-title-span">
                     Contact
                      </span>
                 </h3>
@@ -91,7 +91,7 @@ function Contact() {
                         <input type="textbox"
                             value={inputs.name}
                             name="name"
-                            placeholder="Name"
+                            placeholder="Your name"
                             className="form-item"
                             id="name"
                             required
@@ -104,7 +104,7 @@ function Contact() {
                             Email</label>
                         <br />
                         <input type="email"
-                            placeholder="Email"
+                            placeholder="your@email"
                             name="_replyto"
                             id="email"
                             className="form-item"
@@ -118,7 +118,7 @@ function Contact() {
                         <label htmlFor="message">
                             Message</label>
                         <br />
-                        <textarea placeholder="Message"
+                        <textarea placeholder="Your message"
                             rows="5"
                             className="form-item"
                             id="message"
