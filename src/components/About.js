@@ -6,7 +6,7 @@ function About() {
 
     var college = <a className="link about-content-link" id="about-college-link" href="https://www.iiitd.ac.in">IIIT Delhi</a>
     var lab1 = <a className="link about-content-link" id="about-sbilab-link" href="https://sites.google.com/iiitd.ac.in/sonia-baloni-ray/team">Visual Cognition Lab</a>
-    var lab2 = <a className="link about-content-link" id="about-sbilab-link" href="https://sites.google.com/iiitd.ac.in/sonia-baloni-ray/team">Complex Systems Lab</a>
+    var lab2 = <a className="link about-content-link" id="about-sbilab-link" href="https://cosylab.iiitd.edu.in">Complex Systems Lab</a>
 
     return (
         <section id="About" className="content">
