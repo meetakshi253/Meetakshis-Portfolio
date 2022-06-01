@@ -28,7 +28,7 @@ function About() {
                         I am an avid reader and love listening to music.
                         I am a constant learner who proactively seeks knowledge and opportunities to learn and grow (and sneak in Harry Potter references wherever I can).
                     </p>
-                    <button className="btn container-downloadcv-button" onClick={() => { let newWindow = window.open('https://res.cloudinary.com/duy8mqmab/image/upload/v1642705549/resume_eamum5.pdf', 'security'); newWindow.opener = null }}>
+                    <button className="btn container-downloadcv-button" onClick={() => { let newWindow = window.open('https://res.cloudinary.com/duy8mqmab/image/upload/v1654097758/Meetakshi_Setiya_s_Resume_yxrvju.pdf', 'security'); newWindow.opener = null }}>
                         Resume
                     </button>
                 </div>
